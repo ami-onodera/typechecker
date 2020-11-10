@@ -48,13 +48,23 @@ div.option {
   margin: 20px 0 0 0;
 }
 
+div.option-checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+
 label {
   display: block;
   margin: 0 0 5px 0;
 }
 
+label span {
+  float: right;
+  font-style: italic;
+}
+
 input[type="text"] {
-  width: 100%;
+  width: 95%;
   background-color: #575757;
   border: none;
   color: #ffffff;
@@ -62,6 +72,16 @@ input[type="text"] {
   padding: 5px 7px;
 }
 
-section.output {
+input[type="range"] {
+  width: 100%;
+}
+
+textarea.output {
   font-size: 64px;
+  width: 100%;
+  background: none;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  min-height: 100vh;
 }

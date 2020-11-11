@@ -121,9 +121,21 @@ input[type="checkbox"] {
   background-color: #575757;
   border-radius: 50%;
   outline: none;
-  transition: background-color 0.25s;
+  transition: background-color 0.5s;
 }
 
 input[type="checkbox"]:checked {
   background-color: #ffffff;
+}
+
+#ami {
+  color: #8b8b8b;
+  font-size: 15.2px;
+  font-family: "Faune";
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+#ami:hover {
+  color: #ffffff;
 }
